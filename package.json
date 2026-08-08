@@ -1,0 +1,19 @@
+{
+  "name": "agro-cooler",
+  "version": "2.0.0",
+  "description": "Secure IoT Cold-Chain & Farm Produce Marketplace",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "socket.io": "^4.7.5",
+    "sqlite3": "^5.1.7"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}
